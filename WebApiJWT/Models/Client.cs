@@ -2,16 +2,16 @@
 
 namespace WebApiJWT.Models
 {
-    public class Products
+    public class Client
     {
         [Key]
         public int id { get; set; }
         [Required]
         public string name { get; set; }
         [Required]
-        public string Description { get; set; }
+        public string cargo { get; set; }
         [Required]
-        public decimal price { get; set; }
+        public string age { get; set; }
         [Required]
         public string url { get; set; }
     }

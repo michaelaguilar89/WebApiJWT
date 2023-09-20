@@ -9,9 +9,9 @@ namespace WebApiJWT.Context
         {
         }
 
-        public DbSet<Clients> clients { get; set; }
+        public DbSet<Client> clients { get; set; }
 
-        public DbSet<Products> products { get; set; }
+        public DbSet<Product> products { get; set; }
 
         public DbSet<User> users { get; set; }
     }
